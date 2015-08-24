@@ -16,7 +16,7 @@ namespace UnitTestProject1
 
             double result= FindAreaR.RectArea(x_test, y_test);
 
-            Assert.AreEqual(expected, result, 0.0001, "Not correctly");
+            Assert.AreEqual(expected, result, 0.00, "Not correctly");
 
         }
     }
